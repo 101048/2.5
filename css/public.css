@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: "阿里巴巴普惠体";
+  font-display: swap;
+  src: url("../fonts/webfont.eot"); /* IE9 */
+  src: url('../fonts/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/webfont.woff2') format('woff2'),
+  url('../fonts/webfont.woff') format('woff'), /* chrome、firefox */
+  url('../fonts/webfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('../fonts/webfont.svg#webfont') format('svg'); /* iOS 4.1- */
+}
+
+html, body, div, span, iframe,input,select, map, font, img, a img, samp, strong, hr, h1, h2, h3, h4, h5, h6, b, p, blockquote, a, address, code, dl, dt, dd, ol, ul, li, form, label, table, tr, td, th {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	
+}
+body {
+	font-family: "阿里巴巴普惠体";
+}
+ol, ul {
+	list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	line-height:1;
+}
+a{
+	text-decoration: none;
+}
+i, em {
+    font-style: normal;
+}
+
+a:focus {
+	outline: none;
+}
+a.hidefocus {
+	outline: none
+}
+
+input[type=text],input[type=submit], input[type=button] {
+	-webkit-appearance: none; /*去除iPhone input默认样式}*/
+}
+
+input{
+	outline: none;
+	background: none;
+}
+img {
+	width: 100%;
+	display: block;
+}
+body {
+	position: relative;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	font-size: 12px;
+}
